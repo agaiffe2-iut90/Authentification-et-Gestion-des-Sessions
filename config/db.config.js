@@ -1,8 +1,8 @@
 require('dotenv').config();
 
 module.exports = {
-	hotsname: process.env.HOSTNAME || 'localhost',
-	user: process.env.USERNAME || 'root',
+	hostname: process.env.HOSTNAME || 'localhost',
+	username: process.env.DB_USER || 'root',
 	password: process.env.PASSWORD || '',
 	database: process.env.DATABASE || 'MiniProject1',
 	dialect: 'postgres',
